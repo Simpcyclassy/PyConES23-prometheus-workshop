@@ -1,7 +1,7 @@
 # Workshop: We know what your app did last summer. Do you? 👀
 ## Observing Python Applications with Prometheus 🔥🐍  
 
-⚠️ ***This repository was created for the 2022 PyCon DE, please note that the content may not be representive of Ecosia's current engineering standards.***
+⚠️ ***This repository was created for the PyConES 2023, please note that the content may not be representive of Ecosia's current engineering standards.***
 
 ### Objective
 
@@ -252,4 +252,4 @@ If the App will not start locally and you receive an error referring the version
 
 ---
 
-The latest version of this material has been developed by @vinesse @sleepypioneer with previous iterations supported by @emilywoods @jasongwartz.
+The latest version of this material has been developed by @simpcyclassy with previous iterations supported by @vinesse @sleepypioneer @emilywoods @jasongwartz.
