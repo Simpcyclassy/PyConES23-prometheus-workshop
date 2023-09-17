@@ -28,7 +28,9 @@ class HTTPRequestHandler(BaseHTTPRequestHandler):
     def get_treecounter(self):
         self.do_HEAD()
         tree_count = fetch_tree_count()
-        bytes_template = bytes(html_template.substitute(counter=tree_count), "utf-8")
+        # Format tree_count with commas
+        formatted_tree_count = '{:,}'.format(tree_count)
+        bytes_template = bytes(html_template.substitute(counter=formatted_tree_count), "utf-8")
         self.wfile.write(bytes_template)
 
     def do_HEAD(self):
