@@ -132,7 +132,7 @@ rate(requests_total[1m])
 Grafana uses authentication, which, for this workshop, is configured in the `docker-compose.yaml` file. The credentials configured for this workshop are:
 
 ```
-username: ecosia
+username: astronomer
 password: workshop
 ```
 

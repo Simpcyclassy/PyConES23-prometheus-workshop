@@ -18,7 +18,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - "GF_SECURITY_ADMIN_USER=ecosia"
+      - "GF_SECURITY_ADMIN_USER=astronomer"
       - "GF_SECURITY_ADMIN_PASSWORD=workshop"
     volumes:
       - "./grafana_datasources.yaml:/etc/grafana/provisioning/datasources/prometheus_docker-compose.yaml"
